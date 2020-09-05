@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <form>
+        <label for="username">Enter user name</label>
+        <input type="text" id="username" name="username" placeholder="name" required>
+        <br><br>
+        <label for="email">Enter Email</label>
+        <input type="email" id="email" name="email" placeholder="email" required>
+        <br><br>
+        <label for="password">Enter password</label>
+        <input type="password" id="password" name="password" placeholder="password" required>
+    </form>
+
+    <form action="">
+        <input type="radio" name="age" value ="0-25" id="option-1">
+        <label for="option-1">0-25</label>
+        <input type="radio" name="age" value="26-50" id="option-2">
+        <label for="option-2">26-50</label>
+        <input type="radio" name="age" value="51+" id="option-3">
+        <label for="option-1">51+</label>
+        <br><br>
+
+        <label for="question">Security question</label>
+        <select name="question" id="question">
+            <option value="q1">fav avenger</option>
+            <option value="q2"> rate your teacher</option>
+            <option value="q3"> what is yor best form</option>
+        </select>
+
+        <br><br>
+        <label for="answer">security question answer</label>
+        <input type="text" id="answer">
+
+        <br><br>
+        <label for="bio">Enter your bio</label> <br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you"></textarea>
+        <br>
+        <input type="submit" value="submit the form">
+    </form>
+</body>
+</html>
